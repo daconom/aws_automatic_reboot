@@ -5,7 +5,6 @@
 #Default region name [None]: eu-central-1
 #Default output format [None]: text
 
-
     aws configure list --profile test
     aws ec2 reboot-instances --region eu-central-1 --instance-ids i-***************** --profile test
 
